@@ -28,7 +28,7 @@ conf = ConnectionConfig(
 app = FastAPI(title='Sending Email using FastAPI and React')
 
 origins = [
-    "http://localhost:3000",
+    "https://reactjs-fastapi-mail.netlify.app/",
 ]
 
 app.add_middleware(
